@@ -1,0 +1,39 @@
+{
+  "name": "qa-pleno-01517-2025-138.437.136-26",
+  "version": "1.0.0",
+  "description": "Bem vindo, candidato.",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node ./build/index.js",
+    "dev": "ts-node-dev ./src/index.ts",
+    "migrations": "tsc && node ./build/database/migrations.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SENAI-SD/qa-pleno-01517-2025-138.437.136-26.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/SENAI-SD/qa-pleno-01517-2025-138.437.136-26/issues"
+  },
+  "homepage": "https://github.com/SENAI-SD/qa-pleno-01517-2025-138.437.136-26#readme",
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/knex": "^0.15.2",
+    "@types/node": "^24.0.7",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.0.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "knex": "^3.1.0",
+    "pg": "^8.16.3",
+    "typescript": "^5.8.3",
+    "uuid": "^11.1.0"
+  }
+}
